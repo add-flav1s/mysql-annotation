@@ -33,6 +33,10 @@
 
 - SHOW TABLES;
 
+## Mostrando a estrutura de dados da tabela.
+
+- DESCRIBE usuarios;
+
 
 ## Inserindo dados na tabela.
 
