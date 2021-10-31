@@ -1,6 +1,26 @@
 # Estudos de MYSQL
 
-## Criando uma tabela
+## Conectando ao servidor do banco de dados.
+
+- mysql -h localhost -u root -p
+
+
+## Mostrando os bancos de dados.
+
+- SHOW DATABASES;
+
+
+## Criando um banco de dados.
+
+- CREATE DATABASE sistemaDeCadastro;
+
+
+## Acessando o banco de dados criado.
+
+- USE sistemaDeCadastro;
+
+
+## Criando uma tabela no banco de dados.
 
 - CREATE TABLE usuarios (
      nome VARCHAR(50),
@@ -9,7 +29,7 @@
 );
 
 
-## Inserindo dados na tabela
+## Inserindo dados na tabela.
 
 - INSERT INTO usuarios (nome, email, idade) VALUES (
     'Joao',
@@ -54,22 +74,22 @@
 );
 
 
-## Mostrando os dados da tabela
+## Mostrando os dados da tabela.
 
 - SELECT * FROM usuarios;
 
 
-## Especificando uma consulta no BD
+## Especificando uma consulta no banco de dados.
 
 - SELECT * FROM usuarios WHERE idade > 18;
 - SELECT * FROM usuarios WHERE nome = 'Clara';
 
 
-## Deletando dados da tabela
+## Deletando dados da tabela.
 
 - DELETE FROM usuarios WHERE idade = 17;
 
 
-## Atualizando dados da tabela
+## Atualizando dados da tabela.
 
 - UPDATE usuarios SET nome = 'Joaquina' WHERE nome = 'Clara';
