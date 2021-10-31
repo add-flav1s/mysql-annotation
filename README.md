@@ -29,6 +29,11 @@
 );
 
 
+## Mostrando tabelas do banco de dados.
+
+- SHOW TABLES;
+
+
 ## Inserindo dados na tabela.
 
 - INSERT INTO usuarios (nome, email, idade) VALUES (
